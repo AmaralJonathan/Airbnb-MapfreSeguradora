@@ -1,0 +1,113 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    width: 100%;
+    font-family:helvetica;
+  
+}
+
+
+.header{
+    display: flex;
+     width: 100%;
+     height: 90px;
+    position: fixed;
+    background-color: white;
+    color: gray;
+
+        
+}
+
+/* Logo do Header*/
+
+.Logo{
+width: 30%;
+margin-left: 100px;
+margin-top: 35px;
+}
+
+/* Search no centro do Header*/
+
+
+
+.Search{
+  
+    width: 22%;
+    margin-top: 30px;
+    margin: 0, auto;
+    margin-right: 180px;
+    
+}
+
+.input-search{
+    display: flex;
+    border: gray 2px solid;
+    border-radius: 200px;
+   
+    
+    
+}
+.input-search h4{
+    
+    margin-left: 20px;
+    margin-top: 13px;
+    margin-bottom: 11px;
+}
+.input-search img{
+
+    color: gray;
+    margin-top: 14Px;
+    margin-left: 90px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+
+
+/* Direita do Header*/
+
+.Host{
+    
+    display: flex;
+    width: 13%;
+    margin-right: 20px;
+}
+
+.Host h4{
+    margin-top: 45px;
+}
+
+.Host img{
+    width: 20px;
+    height: 20px;
+    margin-top: 44px;
+    margin-left: 18px;
+}
+
+
+/* Tela de perfil*/
+.option{
+
+    
+    margin-top: 30px;
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 7px;
+   margin-bottom: 15px;
+}
+.Option{
+   
+    margin-top: 8px;
+}
+
+.menu{
+    margin-bottom: 3px;
+    margin-right: 8px;
+}
+
+
+/* Foto principal*/
+
