@@ -44,7 +44,7 @@ margin-top: 35px;
     display: flex;
     border: gray 2px solid;
     border-radius: 200px;
-   
+    width: 300px;
     
     
 }
@@ -55,7 +55,7 @@ margin-top: 35px;
     margin-bottom: 11px;
 }
 .input-search img{
-
+     
     color: gray;
     margin-top: 14Px;
     margin-left: 90px;
@@ -71,8 +71,8 @@ margin-top: 35px;
 .Host{
     
     display: flex;
-    width: 13%;
-    margin-right: 20px;
+    width: 16%;
+    margin-right: 15px;
 }
 
 .Host h4{
@@ -111,3 +111,56 @@ margin-top: 35px;
 
 /* Foto principal*/
 
+
+
+/* Destinos */
+
+.destinos{
+ 
+    margin-left: 100px;
+
+}
+
+.Line1{
+    display: flex;
+}
+
+
+
+.container1{
+    display: flex;
+    margin-right: 100px;
+}
+.container1 h4{
+    margin-bottom: 0%;
+    margin-left: 4px;
+
+}
+.container1 h6{
+    margin-top: 0%;
+    margin-left: 4px;
+}
+
+.Line2{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.Curitiba{
+    margin-left: 10px;
+    margin-right: 120px;
+}
+
+
+/* More */
+
+.Linving{
+    margin-left: 100px;
+
+}
+
+.Linving img{
+    margin-right: 20px;
+    border-radius: 20px;
+}
