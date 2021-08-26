@@ -7,6 +7,14 @@ body{
   
 }
 
+a{
+    text-decoration: none;
+    border: none;
+    color: gray;
+}
+a:hover{
+    color: rgb(255, 94, 0);
+}
 
 .header{
     display: flex;
