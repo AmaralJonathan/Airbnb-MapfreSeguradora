@@ -8,6 +8,7 @@ body{
 }
 header{
     position: fixed;
+    height: 50px;
 }
 .header{
     
@@ -148,6 +149,7 @@ h5{
 
 .container1{
     margin-top: 100px;
+    width: 670px;
 }
 
 /*CASAS HEADER*/
@@ -265,4 +267,17 @@ border-bottom: rgba(185, 185, 185, 0.801) 1px solid;
 }
 .info3-esquerda{
     display: flex;
+}
+.info3-esquerda img{
+    margin-top: 8px;
+    margin-right: 4px;
+}
+.info3-direita{
+   margin-left: 140px;
+ 
+
+}
+
+.info3-direita h4{
+    margin-top: 10px;
 }
