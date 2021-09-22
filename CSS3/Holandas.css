@@ -231,6 +231,7 @@ border-radius: 50%;
 }
 
 
+
 .corpo-form{
     border: 1px gray solid;
     width: 300px;
@@ -348,22 +349,187 @@ color: rgb(0, 0, 0);
     margin-right: 161px;
 }
 .h9{
-    margin-right: 155px;
+    margin-right: 130px;
     margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h9:hover{
+    color: tomato;
 }
 .h10{
-    margin-right: 209px;
+    margin-right: 197px;
 
 }
 
 .total{
     border-top: gray 1px solid;
     display: flex;
-    margin-left: 10px;
+    margin-left: 9px;
     width: 270px;
     color: black;
 }
-.total h6{
+.total h5 {
     margin-top: 10px;
     margin-bottom: 0;
+    width: 20px;
+}
+#res2{
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.PopUp{
+    display: none;
+}
+.PopUp.mudar{
+    display: flex;
+}
+
+
+
+
+
+
+.InPopUp{
+ position: fixed;
+ width: 1100px;
+ height: 500px;
+ background-color: rgb(255, 255, 255) ;
+ bottom: 10%;
+ left: 9%;
+ border-radius: 10px;
+ border: rgb(255, 0, 0) 5px solid;
+
+
+}
+.Header-PopUp{
+    background: rgb(200, 200, 202);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Container-central{
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    position: absolute;
+    top: 9px;
+    left: 1050px;
+    background-color:white;
+    border: solid 4px white;
+    border-radius: 10%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    
+}
+
+.container-Left{
+   
+    margin-right: 60px;
+    width: 500px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.container-right{
+    
+    width: 500px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.basica-top img{
+    
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: none;
+    margin-top: 5px;
+    
+ 
+
+}.basica-top h4{
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+.basica-meio{
+    text-align: center;
+    margin-top: 2px;
+    width: 400px;
+} 
+.txtmodal{
+display: flex;
+text-align: center;
+width: 100%;
+justify-content: center;
+margin-bottom: 0px;
+}
+
+    .basica-meio p{
+       margin-top: 0%;
+       margin-bottom: 2%;
+      
+  
+}
+.botão1{
+    display: flex;
+    justify-content: center;
+}
+.BOTÃO{
+    text-align: center;
+    width: 300px;
+    background: rgb(141, 5, 5);
+    color: white;
+    border-radius: 5PX;
+    padding-top: 1%;
+    padding-bottom: 1%;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   
+    
+}
+.BOTÃO:before{
+    color: black;
+}
+.itensprotect{
+    font-size: 15px;
+}
+
+.chekmodal{
+    text-align: center;
+    margin-top: 25px;
 }

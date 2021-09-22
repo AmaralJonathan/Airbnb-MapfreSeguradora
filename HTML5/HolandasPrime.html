@@ -12,7 +12,7 @@
         <div class="header">
        
             <div class="Logo">
-           <a href="../HTML5/JoãoPessoa.html"><img src="../Img/Airbnb_Logo_Bélo.svg.png" alt="LogoAirbnb" width="120"> </a> 
+           <a href="../HTML5/Index.html"><img src="../Img/Airbnb_Logo_Bélo.svg.png" alt="LogoAirbnb" width="120"> </a> 
             </div>
 
 
@@ -156,24 +156,13 @@
 
 
             <div class="MAPFRE">
-                <h4>Beneficios MAPFRE</h4>
-                <UL>
-                    <LI>
-                        Seguro
-                    </LI>
-                    <LI>
-                        Seguro
-                    </LI>
-                    <LI>
-                        Seguro
-                    </LI>
-                    <LI>
-                        Seguro
-                    </LI>
-                    <LI>
-                        Seguro
-                    </LI>
-                </UL>
+                <h3>Beneficios MAPFRE</h3>
+               <p>Em parceria com a <strong>MAPFRE SEGURADORA</strong>  agora você pode contratar uma apólice de seguro no momento do aluguel de uma residência!</p> 
+               <p> Os preços variam conforme as coberturas oferecidas. A proposta é manter seus bens pessoais levados em sua aventura protegidos durante a estadia. </p>
+                <H4><strong>COBERTURA BÁSICA</strong></H4>
+                <P>Protege seus itens pessoais (como roupas e brinquedos) e eletrodomésticos (como secadores e chapinhas) contra roubos, furtos e mal funcionamento causado por desastres naturais dentro da propriedade alugada.  </P>
+                <H4><strong>COBERTURA ADICIONAL</strong></H4>
+                <P>Protege seus itens pessoais (como roupas e brinquedos), eletrodomésticos (como secadores e chapinhas) e eletrônicos pessoais como celulares, câmeras e computadores contra roubos, furtos e mal funcionamento causado por desastres naturais dentro da propriedade alugada.</P>
             </div>
         </div>
 
@@ -235,13 +224,13 @@
                     <h6>R$54</h6>
                 </div>
                 <div class="preço1">
-                    <h6 class="h9">Seguro MAPFRE</h6>
-                    <h6>R$00</h6>
+                    <h6 class="h9"><input type="checkbox" name="Aceito" id="check">Seguro MAPFRE</h6>
+                    <h6 id=res>R$000</h6>
                 </div>
 
                 <div class="total">
                     <h5 class="h10">Total</h5>
-                    <h5>R$00</h5>
+                    <h5 id="res2">R$439</h5>
                 </div>
             </div>
 
@@ -253,22 +242,125 @@
         </div>
     </div>
     
+<div class="PopUp" id="PopUpId">
+   <div class="InPopUp">
+       <button class = "fechar">X</button>
+       <div class="Header-PopUp">
+       <img src="../Img/mapfre-logo.png" alt="mapfre-logo" height="40">
+      
+      </div>
+      <DIV class="txtmodal">
+      <H5>Agora você pode garantir sua segurança durante a estadia em Airbnb! 
+        Selecione sua cobertura: </H5>
+      </DIV>
+      <div class="Container-central">
+           <div class="container-Left">
+            <div class="cobertura-basica">
+                <div class="basica-top">
+                      <img src="../Img/RIO.jpg" alt="" width="90">
+                      <h4>Cobertura Basica</h4>
+                      <p>20% do valor da estadia</p>
+                </div>
+                <div class="basica-meio">
+                  
+                        <p class="itensprotect">Protege seus itens pessoais (como roupas e brinquedos) <br> eletrodomésticos (como secadores e chapinhas).   </p>
+                        
+                        <p><strong>Roubos, furtos e mal funcionamento causado por desastres naturais dentro da propriedade alugada.</strong></p>
+                      
+                    
+                </div>
+               
+                <div class="BOTÃO" id="area1">
+                    <H3>CONTRATAR</H3>
+                </div>  
+            
+           </div>
+           </div>
+           
+           <div class="container-right">
+            <div class="cobertura-basica">
+                <div class="basica-top">
+                      <img src="../Img/RIO.jpg" alt="" width="90">
+                      <h4>Cobertura Adicional</h4>
+                      <p>30% do valor da estadia</p>
+                </div>
+                <div class="basica-meio">
+                    <p class="itensprotect">Protege seus itens pessoais, eletrodomésticos  e eletrônicos pessoais como celulares, câmeras e computadores</p>
+                        
+                    <p><strong>Roubos, furtos e mal funcionamento causado por desastres naturais dentro da propriedade alugada.</strong></p>
+                  
+                  
+                </div>
+                <div class=" botão1">
+                <div class="BOTÃO" id="area">
+                    <H3 >CONTRATAR</H3>
+                </div>  
+                </div>
 
+           </div>
+           </div>
 
-
+           
+          </div>
+         <div class="chekmodal"> 
+          <input type="checkbox" name="Aceito" id="check">Aceito os termos
+        </div>
+      </div>
+    </div>
 
 
 </main>
 
-
-
-
-
-
-
-
-
-
-
 </body>
+
+
+
+<script>
+
+
+const MAPFRE = document.querySelector('.h9')
+MAPFRE.addEventListener('click', () => iniciaModal('PopUpId'))
+
+function iniciaModal(PopUpId){
+    const modal = document.getElementById(PopUpId)
+    modal.classList.add('mudar')
+    
+    modal.addEventListener('click', (e) => {
+       if(e.target.id == PopUpId || e.target.className == 'fechar' )
+    modal.classList.remove('mudar')})
+}
+
+
+function clicou2(PopUpId){
+    var close = document.getElementById
+   
+}
+
+
+var a = window.document.querySelector('div#area')
+           a.addEventListener('click', clicar)
+       
+         function  clicar(){
+          
+           
+            a.style.background= "black"
+            res.innerHTML = 'R$ 100'
+            res2.innerHTML = 'R$ 539'
+         }
+
+         var b = window.document.querySelector('div#area1')
+           b.addEventListener('click', clicar1)
+       
+         function  clicar1(){
+          
+           
+            b.style.background= "black"
+            res.innerHTML = 'R$ 100'
+            res2.innerHTML = 'R$ 539'
+         }
+     
+
+
+</script>
+
 </html>
